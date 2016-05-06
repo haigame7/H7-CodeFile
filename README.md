@@ -1,4 +1,3 @@
-# H7-CodeFile
-***
-## 存放修改代码之用
+### H7-CodeFile
+
 - WeChatIOS: IOS 调用微信SDK 
