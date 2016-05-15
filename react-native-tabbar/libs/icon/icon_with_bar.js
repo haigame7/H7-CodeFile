@@ -57,7 +57,7 @@ class IconWithBar extends Component {
     const barColor = onInactiveColorBar;
     const types = selected? ontype : type;
     const borderWidth = 1;
-    const padding = 1;
+    const padding = 5;
 
     let icon = null;
     if (!!types && !from) {
@@ -76,7 +76,7 @@ class IconWithBar extends Component {
       <TouchableWithoutFeedback style={{ flex: 1 }} onPress={this.onPress.bind(this)}>
         <View style={[styles.icon, { borderTopWidth: borderWidth, borderTopColor: barColor, paddingTop: padding }]}>
           {icon}
-          <View style={{ paddingTop: 5 }}>
+          <View style={{ paddingTop: 1 }}>
             <Text style={{ fontSize: 12, color: color }}>{label}</Text>
           </View>
         </View>
