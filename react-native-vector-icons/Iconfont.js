@@ -37,6 +37,7 @@ var glyphMap = {
   "angle-down": 58906,
   "delete": 58907,
   "toggle": 58908,
+  "angle-up": 58909,
 };
 
 var Iconfont = createIconSet(glyphMap, 'Iconfont', 'Iconfont.ttf');
